@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "hey_gustav",
+  "author": "Thomas",
+  "website": "http://192.168.10.15:8123/local/wake_words/hey_gustav.json",
+  "version": 1,
+  "model": "hey_gustav.tflite",
+  "micro": {
+    "probability_cutoff": 0.90,
+    "sliding_window_size": 7,
+    "feature_step_size": 10,
+    "tensor_arena_size": 60000,
+    "minimum_esphome_version": "2024.6.0"
+  }
+}
